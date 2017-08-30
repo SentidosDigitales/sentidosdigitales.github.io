@@ -5,3 +5,14 @@ header{
   height: 35 px;
   background-color: orange;
 }
+
+#links{
+  list-style: none;
+  
+
+}
+
+#links li{
+  display: inline-block;
+
+}
