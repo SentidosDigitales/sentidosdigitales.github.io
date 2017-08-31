@@ -1,18 +1,48 @@
-h1{
-
-}
 header{
-  height: 35 px;
-  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 7px 7px;
+  padding: 5px;
+  height: 70 px;
+  background: linear-gradient(to bottom, darkgrey, black, black,black);
 }
-
+#landing{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /*padding: 5%;*/
+  background-image: url(http://lorempixel.com/1350/550);
+  width: 100%;
+  height: 550px;
+  }
+.main-title{
+  margin-bottom: 40px;
+}
 #links{
   list-style: none;
-  
+
 
 }
 
 #links li{
   display: inline-block;
+}
 
+#idpic{
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+
+
+
+}
+.biopic{
+  border-radius: 50%;
+}
+body{
+  text-align: center;
+  padding: 0;
 }
